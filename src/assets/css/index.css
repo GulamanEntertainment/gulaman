@@ -1,0 +1,133 @@
+*{
+    font-family: Campton;
+    --background-color:#171818;
+    --font-color:#d4d4d4;
+    --font-faded-color: rgb(38, 40, 40);
+    user-select: none;
+}
+body, html{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--font-color);
+}
+::-webkit-scrollbar {
+    background-color:var(--background-color);
+    width: 7px;
+    height: 7px;
+  }
+::-webkit-scrollbar-track {
+    background: var(--font-faded-color);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(19, 19, 19);
+    transition: background 0.2s ease-in;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #424242;
+  }
+.scroll:nth-child(2), .scroll:nth-child(3) {
+    transition: transform 0.15s ease-out;
+}
+
+@font-face {
+    font-family: Campton;
+    src: url('../font/CamptonThinItalic.otf');
+    font-weight: thin;
+    font-style: italic;
+}
+@font-face {
+    font-family: Campton;
+    src: url('../font/CamptonThin.otf');
+    font-weight: thin;
+    font-style: normal;
+}
+@font-face {
+    font-family: Campton;
+    src: url('../font/CamptonSemiBoldItalic.otf');
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: Campton;
+    src: url('../font/CamptonSemiBold.otf');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: Campton;
+    src: url('../font/CamptonMediumItalic.otf');
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: Campton;
+    src: url('../font/CamptonMedium.otf');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: Campton;
+    src: url('../font/CamptonLightItalic.otf');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: Campton;
+    src: url('../font/CamptonLight.otf');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: Campton;
+    src: url('../font/CamptonExtraLightItalic.otf');
+    font-weight: 200;
+    font-style: italic;
+}
+@font-face {
+    font-family: Campton;
+    src: url('../font/CamptonExtraLight.otf');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: Campton;
+    src: url('../font/CamptonExtraBoldItalic.otf');
+    font-weight: 800;
+    font-style: italic;
+}
+@font-face {
+    font-family: Campton;
+    src: url('../font/CamptonExtraBold.otf');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: Campton;
+    src: url('../font/CamptonBoldItalic.otf');
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: Campton;
+    src: url('../font/CamptonBold.otf');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: Campton;
+    src: url('../font/CamptonBlackItalic.otf');
+    font-weight: 900;
+    font-style: italic;
+}
+@font-face {
+    font-family: Campton;
+    src: url('../font/CamptonBlack.otf');
+    font-weight: 900;
+    font-style: normal;
+}

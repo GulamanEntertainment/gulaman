@@ -18,8 +18,8 @@ const Title = ()=>{
     const t = ['g','u','l','a','m','a','n'];
     
     return(
-        <div>
-            <MainTitle data-rate="-0.1" className="scroll">
+        <div data-rate="-0.1" className="scroll">
+            <MainTitle>
                 {
                     t.map((value, index)=>{
                         return(
@@ -29,7 +29,7 @@ const Title = ()=>{
                     })
                 }
             </MainTitle>
-            <SubTitle data-rate="-0.3" className="scroll">ENTERTAINMENT</SubTitle>
+            <SubTitle >ENTERTAINMENT</SubTitle>
         </div>
     )
 }

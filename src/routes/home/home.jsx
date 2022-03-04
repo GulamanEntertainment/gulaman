@@ -27,6 +27,7 @@ const Home = ()=>{
     })  
     return(
         <div className="main-home" id='main-home' >
+
             <div className="home home-title">
                 <div className="big-background">
                     <h1 data-rate="0.4" data-horizontal={true} className='scroll'>g</h1>
@@ -41,22 +42,21 @@ const Home = ()=>{
                 </h2>
                 <div className="social-cont">
                     {/* <h4>Social:</h4> */}
-                    <a data-rate="-0.15" className='scroll'href="https://www.instagram.com/gulamanentertainment/">
-                        <AiFillInstagram  size={50} color='#d4d4d4'/>
-                    </a>
                     <a data-rate="-0.15" className='scroll'href="https://www.facebook.com/GulamanEntertainment">
                         <AiFillFacebook  size={50} color='#d4d4d4'/>
                     </a>
                     <a data-rate="-0.15" className='scroll'href="https://www.youtube.com/GulamanEntertainment">
                         <AiFillYoutube  size={50} color='#d4d4d4'/>
                     </a>
+                    <a data-rate="-0.15" className='scroll'href="https://www.instagram.com/gulamanentertainment/">
+                        <AiFillInstagram  size={50} color='#d4d4d4'/>
+                    </a>
                     <a data-rate="-0.15" className='scroll'href="https://twitter.com/GulamanEnt">
                         <AiFillTwitterSquare  size={50} color='#d4d4d4'/>
                     </a>
-                    <a data-rate="-0.15" className='scroll' href="https://www.behance.net/gulamanenterta">
+                    <a data-rate="-0.15" className='scroll' href="https://www.behance.net/GulamanEntertainment">
                         <AiFillBehanceSquare  size={50} color='#d4d4d4'/>
                     </a>
-            
                 </div>
                 <div data-rate="-0.1" data-horizontal="true" className="circle scroll"/>
                 <div data-rate="-0.5" data-horizontal="true" className="circle scroll"/>

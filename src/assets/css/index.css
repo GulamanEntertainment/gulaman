@@ -11,6 +11,8 @@ body, html{
     padding: 0;
     background-color: var(--background-color);
     color: var(--font-color);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 ::-webkit-scrollbar {
     background-color:var(--background-color);

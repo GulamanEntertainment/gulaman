@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/gulamanentertainment.com/static/css/main.ea03092b.css",
+    "main.css": "/gulamanentertainment.com/static/css/main.b6786084.css",
     "main.js": "/gulamanentertainment.com/static/js/main.6307fbf4.js",
     "static/media/CamptonExtraBoldItalic.otf": "/gulamanentertainment.com/static/media/CamptonExtraBoldItalic.24b4bfc5d8c58647470d.otf",
     "static/media/CamptonBoldItalic.otf": "/gulamanentertainment.com/static/media/CamptonBoldItalic.17600b54f2818db82868.otf",
@@ -19,11 +19,11 @@
     "static/media/CamptonExtraLight.otf": "/gulamanentertainment.com/static/media/CamptonExtraLight.be8a0443bdc57d7d3598.otf",
     "static/media/CamptonThin.otf": "/gulamanentertainment.com/static/media/CamptonThin.5be5340ef4612e5009f7.otf",
     "index.html": "/gulamanentertainment.com/index.html",
-    "main.ea03092b.css.map": "/gulamanentertainment.com/static/css/main.ea03092b.css.map",
+    "main.b6786084.css.map": "/gulamanentertainment.com/static/css/main.b6786084.css.map",
     "main.6307fbf4.js.map": "/gulamanentertainment.com/static/js/main.6307fbf4.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea03092b.css",
+    "static/css/main.b6786084.css",
     "static/js/main.6307fbf4.js"
   ]
 }

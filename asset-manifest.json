@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.39fb6feb.css",
-    "main.js": "/static/js/main.20f78dcf.js",
+    "main.js": "/static/js/main.c6806ffd.js",
     "static/media/CamptonExtraBoldItalic.otf": "/static/media/CamptonExtraBoldItalic.24b4bfc5d8c58647470d.otf",
     "static/media/CamptonBoldItalic.otf": "/static/media/CamptonBoldItalic.17600b54f2818db82868.otf",
     "static/media/CamptonExtraBold.otf": "/static/media/CamptonExtraBold.d150826b5fc60e42c315.otf",
@@ -20,10 +20,10 @@
     "static/media/CamptonThin.otf": "/static/media/CamptonThin.5be5340ef4612e5009f7.otf",
     "index.html": "/index.html",
     "main.39fb6feb.css.map": "/static/css/main.39fb6feb.css.map",
-    "main.20f78dcf.js.map": "/static/js/main.20f78dcf.js.map"
+    "main.c6806ffd.js.map": "/static/js/main.c6806ffd.js.map"
   },
   "entrypoints": [
     "static/css/main.39fb6feb.css",
-    "static/js/main.20f78dcf.js"
+    "static/js/main.c6806ffd.js"
   ]
 }

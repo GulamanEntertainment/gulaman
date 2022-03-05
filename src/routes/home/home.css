@@ -18,68 +18,80 @@
  /* margin: 0 1.5em; */
 }
 @media only screen and (max-width: 1024px) {
- .title {
-  width: 100%;
- }
- .big-background h1 {
-  top: -50em;
-  left: 50em;
- }
- .big-background {
-  overflow: visible;
-  position: relative;
-  width: 0;
- }
- /* lower right */
- .home-social .circle:nth-child(4) {
-  bottom: -40%;
-  right: -10%;
-  background-color: var(--font-color);
- }
- /* lower :left */
- .home-social .circle:nth-child(3) {
-  bottom: -20%;
-  right: -10%;
- }
- .home-social h2{
-    z-index: 3;
-    color: rgb(157, 157, 157);
-}
+    .title {
+    width: 100%;
+    }
+    .big-background h1 {
+        overflow: hidden;
+        width: 115%;
+    height: 90%;
+
+    }
+    .big-background {
+    /* overflow: visible; */
+    position: absolute;
+    width: 100%;
+    height: 200%;
+
+    
+    
+    }
+    /* lower right */
+    .home-social .circle:nth-child(4) {
+    bottom: -40%;
+    right: -10%;
+    background-color: var(--font-color);
+    }
+    /* lower :left */
+    .home-social .circle:nth-child(3) {
+    bottom: -20%;
+    right: -10%;
+    }
+    .home-social h2{
+        z-index: 3;
+        font-size: 3em;
+        color: rgb(157, 157, 157);
+    }
+        .home-social{
+            overflow: hidden;
+        }
 }
 @media only screen and (min-width: 1024px) {
-    .home-social h2{
+        .home-social h2{
+    font-size: 4em;
+            
+            color: var(--font-faded-color);
+        }
+    .big-background {
+    width: 50%;
     
-        color: var(--font-faded-color);
     }
- .big-background {
-  width: 50%;
- }
- .big-background h1 {
-  top: -20em;
-  left: -15em;
- }
- /* lower right */
- .home-social .circle:nth-child(4) {
-  bottom: -20%;
-  right: 4%;
-  background-color: var(--font-color);
- }
- /* lower :left */
- .home-social .circle:nth-child(3) {
-  bottom: 1%;
-  right: 10%;
- }
+    
+    /* lower right */
+    .home-social .circle:nth-child(4) {
+    bottom: -20%;
+    right: 4%;
+    background-color: var(--font-color);
+    }
+    /* lower :left */
+    .home-social .circle:nth-child(3) {
+    bottom: 1%;
+    right: 10%;
+    }
+    .home-social{
+        overflow: auto;
+    }
 }
 .big-background {
- width: 50%;
+
  display: flex;
  /* position: relative; */
- overflow: visible;
+
 }
 .big-background h1 {
  font-size: 75em;
  position: absolute;
- overflow: visible;
+
 
  top: -20vw;
  left: -15vw;
@@ -96,13 +108,12 @@
  align-items: center;
  flex-direction: column;
  position: relative;
- overflow: visible;
+ 
 }
 .home-social h2 {
  position: absolute;
  bottom: 20%;
  /* color: var(--font-faded-color); */
- font-size: 4em;
 }
 .home-social .social-cont {
  width: 100%;

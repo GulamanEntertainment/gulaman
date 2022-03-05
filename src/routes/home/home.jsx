@@ -19,7 +19,7 @@ const Home = ()=>{
             
             // console.log(`target: ${i} ${pos}`)
         }
-        console.log(scroll);
+        // console.log(scroll);
     }
     useEffect(()=>{
         document.addEventListener('scroll', scrollHandler)
